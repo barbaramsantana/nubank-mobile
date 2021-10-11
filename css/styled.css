@@ -1,0 +1,32 @@
+.circle{
+        height: 50px;
+        width: 50px;
+        background-color: rgb(238, 238, 238);
+        border-radius: 50%;
+        display: inline-block;
+}
+.container-cartao{
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;  
+}
+.container-barra {
+    display: block;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.testimonial-group > .row {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonial-group > .row > .col-4 {
+    display: inline-block;
+  }
+  
+  /* Decorations */
+  .col-4 { 
+      font-size: 48px; 
+      padding-bottom: 20px; 
+      padding-top: 18px; 
+      /*background: rgb(238, 238, 238); */
+}
